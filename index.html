@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão do Tempo</title>
+</head>
+<body id="weather-app">
+    <div class="caixa-maior">
+        <select class="input-estado">
+            <option value="" disabled selected>Selecione o Estado</option>
+            <option value="Rio Branco">AC</option>
+            <option value="Maceió">AL</option>
+            <option value="Manaus">AM</option>
+            <option value="Macapá">AP</option>
+            <option value="Salvador">BA</option>
+            <option value="Fortaleza">CE</option>
+            <option value="Brasília">DF</option>
+            <option value="Vitória">ES</option>
+            <option value="Goiânia">GO</option>
+            <option value="São Luís">MA</option>
+            <option value="Belo Horizonte">MG</option>
+            <option value="Campo Grande">MS</option>
+            <option value="Cuiabá">MT</option>
+            <option value="Belém">PA</option>
+            <option value="João Pessoa">PB</option>
+            <option value="Recife">PE</option>
+            <option value="Teresina">PI</option>
+            <option value="Curitiba">PR</option>
+            <option value="Rio de Janeiro">RJ</option>
+            <option value="Natal">RN</option>
+            <option value="Porto Velho">RO</option>
+            <option value="Boa Vista">RR</option>
+            <option value="Porto Alegre">RS</option>
+            <option value="Florianópolis">SC</option>
+            <option value="Aracaju">SE</option>
+            <option value="São Paulo">SP</option>
+            <option value="Palmas">TO</option>
+        </select>
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" alt="busca" src="imagem pesquisa/imagem_pesquisa-removebg-preview.png">
+        </button>
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em</h2>
+            <p class="temp">21°C</p> 
+            <div class="caixa-menor">
+                <p class="texto-previsao">Nublado</p>
+                <img class="img-previsao" id="moving-cloud" src="https://i.gifer.com/3klZ.gif" alt="Nuvem animada">
+            </div>
+            <p class="umidade">Umidade 76%</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

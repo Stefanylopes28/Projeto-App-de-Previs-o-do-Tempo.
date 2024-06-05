@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 1s ease-in-out;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.caixa-maior {
+  background: #000000;
+  opacity: 0.6;
+  border-radius: 40px;
+  padding: 10px;
+  width: 95%;
+  max-width: 450px;
+}
+
+.img-busca {
+  width: 20px;
+}
+
+.caixa-media {
+  margin-top: 40px;
+}
+
+.botao-busca {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 80px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+}
+
+.bg-image-1 {
+  background-image: url('imagem 1/imagem-do-meu-projeto-previsão-do-tempo-1.png');
+}
+
+.bg-image-2 {
+  background-image: url('imagem 2/imagem-do-meu-projeto-previsão-do-tempo-2.png');
+}
+
+.bg-image-3 {
+  background-image: url('imagem 3/imagem-do-meu-projeto-previsão-do-tempo-3.png'); 
+}
+
+.bg-image-4 {
+  background-image: url('imagem 4/imagem-do-meu-projeto-previsão-do-tempo-4.png');
+}
+
+.bg-image-5 {
+  background-image: url('imagem 5/imagem-do-meu-projeto-previsão-do-tempo-5.png');
+}
+
+.bg-image-6 {
+  background-image: url('imagem 6/imagem-do-meu-projeto-previsão-do-tempo-6.png');
+}
+
+.bg-image-7 { 
+  background-image: url('imagem 7/imagem-do-meu-projeto-previsão-do-tempo-7.png');
+}
+
+.bg-image-8 {
+  background-image: url('imagem 8/imagem-do-meu-projeto-previsão-do-tempo-8.png');
+}
+
+.bg-image-9 {
+  background-image: url('imagem 9/imagem-do-meu-projeto-previsão-do-tempo-9.png');
+}   
+
+.bg-image-10 {
+  background-image: url('imagem 10/imagem do meu projeto previsão do tempo 10.png');
+}
+
+.bg-image-11 {
+  background-image: url('imagem 11/imagem do meu projeto previsão do tempo 11.png');
+}
+
+.bg-image-12 {
+  background-image: url('imagem 12/imagem do meu projeto previsão do tempo 12.png');
+}
+
+.bg-image-13 {
+  background-image: url('imagem 13/imagem do meu projeto previsão do tempo 13.png');
+}
+
+.bg-image-14 {
+  background-image: url('imagem 14/imagem do meu projeto previsão do tempo 14.png');
+}
+
+.bg-image-15 {
+  background-image: url('imagem 15/imagem do meu projeto previsão do tempo 15.png');
+}
+
+.bg-image-16 {
+  background-image: url('imagem 16/imagem do meu projeto previsão do tempo 16.png');
+}
+
+.bg-image-17 {
+  background-image: url('imagem 17/imagem do meu projeto previsão do tempo 17.png');
+}
+
+.bg-image-18 {
+  background-image: url('imagem 18/imagem do meu projeto previsão do tempo 18.png');
+}
+
+.bg-image-19 {
+  background-image: url('imagem 19/imagem do meu projeto previsão do tempo 19.png');
+}
+
+.bg-image-20 {
+  background-image: url('imagem 20/imagem do meu projeto previsão do tempo 20.png');
+}
+
+.bg-image-21 {
+  background-image: url('imagem 21/imagem do meu projeto previsão do tempo 21.png');
+}
+
+.cidade {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.temp {
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  font-weight: 300;
+  align-items: center;
+  font-size: 20px;
+}
+
+.caixa-menor {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #FFFFFF;
+}
+
+.texto-previsao {
+  color: #FFFFFF;
+  margin-left: 2px;
+  font-size: 18px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.umidade {
+  color: #FFFFFF;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+
+.input-estado {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  width: calc(100% - 90px);
+  font-size: 18px;
+  background-color: #FFB6C1;
+}
+
+.botao-busca {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
